@@ -2077,10 +2077,18 @@ input[type="checkbox"] {
 }
 
 .d-create-file{
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
     border: dashed 3px #dddddd;
     text-align: center;
+}
+
+.d-project {
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 3px #dddddd;
+    text-align: center;
+    position: relative;
 }
 
 .dark-scheme .d-create-file{
@@ -2089,6 +2097,10 @@ input[type="checkbox"] {
 
 .dark-scheme .d-create-file p{
     color: #ffffff;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 footer:not(.footer-light) #form_subscribe input[type=text]::-moz-input-placeholder {
